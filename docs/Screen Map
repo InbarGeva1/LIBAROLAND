@@ -1,0 +1,370 @@
+# 🗺️ LIBAROLAND Screen Map
+
+Version: 1.0
+
+---
+
+# Navigation Overview
+
+```text
+Splash
+   │
+   ▼
+Home Dashboard
+   │
+   ├──────────────► Planner
+   │                  │
+   │                  ├── Day Details
+   │                  │       │
+   │                  │       └── Activity Details
+   │                  │
+   │                  └── Add Activity
+   │
+   ├──────────────► Budget
+   │                  │
+   │                  └── Expenses
+   │
+   ├──────────────► Tickets
+   │
+   ├──────────────► Packing
+   │
+   ├──────────────► Translator
+   │
+   ├──────────────► Weather
+   │
+   ├──────────────► Currency
+   │
+   ├──────────────► Tomorrowland
+   │
+   └──────────────► Settings
+```
+
+---
+
+# Screen List
+
+| Screen | Priority | Status |
+|---------|----------|--------|
+| Splash | High | Planned |
+| Home | High | Planned |
+| Planner | High | Planned |
+| Day Details | High | Planned |
+| Activity Details | High | Planned |
+| Budget | High | Planned |
+| Expenses | High | Planned |
+| Tickets | High | Planned |
+| Packing | High | Planned |
+| Translator | High | Planned |
+| Weather | Medium | Planned |
+| Currency | Medium | Planned |
+| Tomorrowland | Medium | Planned |
+| Settings | High | Planned |
+
+---
+
+# Screen Details
+
+---
+
+## Splash
+
+Purpose
+
+Display branding while loading app.
+
+Next Screen
+
+Home
+
+---
+
+## Home
+
+Purpose
+
+Main dashboard.
+
+Widgets
+
+- Countdown
+- Weather
+- Today's Plan
+- Budget
+- Quick Actions
+
+Navigation
+
+Planner
+
+Budget
+
+Packing
+
+Translator
+
+Tickets
+
+Tomorrowland
+
+Settings
+
+---
+
+## Planner
+
+Purpose
+
+Manage the entire trip.
+
+Contains
+
+Trip Days
+
+Activities
+
+Hotels
+
+Transportation
+
+Actions
+
+Add Day
+
+Rename Day
+
+Delete Day
+
+Reorder Days
+
+---
+
+## Day Details
+
+Purpose
+
+Manage a specific travel day.
+
+Contains
+
+Activities
+
+Notes
+
+Transportation
+
+Budget
+
+Weather
+
+---
+
+## Activity Details
+
+Contains
+
+Title
+
+Image
+
+Price
+
+Google Maps
+
+Booking Link
+
+Notes
+
+Time
+
+---
+
+## Budget
+
+Contains
+
+Trip Budget
+
+Spent
+
+Remaining
+
+Charts
+
+---
+
+## Expenses
+
+Contains
+
+Expense List
+
+Receipt Scan (future)
+
+Categories
+
+Statistics
+
+---
+
+## Tickets
+
+Contains
+
+Flights
+
+Hotels
+
+Reservations
+
+QR Codes
+
+---
+
+## Packing
+
+Contains
+
+Checklist
+
+Categories
+
+Priority
+
+Weight (future)
+
+---
+
+## Translator
+
+Contains
+
+Conversation Mode
+
+Voice Input
+
+Text Translation
+
+History
+
+---
+
+## Weather
+
+Contains
+
+Forecast
+
+Humidity
+
+Rain
+
+Wind
+
+---
+
+## Currency
+
+Contains
+
+THB
+
+ILS
+
+USD
+
+Calculator
+
+---
+
+## Tomorrowland
+
+Contains
+
+Countdown
+
+Festival Schedule
+
+Favorite Artists
+
+Map
+
+---
+
+## Settings
+
+Contains
+
+Theme
+
+Currency
+
+Language
+
+Notifications
+
+Offline Mode
+
+---
+
+# Bottom Navigation
+
+🏠 Home
+
+📅 Planner
+
+➕ Quick Add
+
+💬 Translator
+
+⚙ Settings
+
+---
+
+# Quick Add
+
+Floating Action Button
+
+Can add
+
+- Expense
+- Activity
+- Ticket
+- Note
+- Packing Item
+
+---
+
+# Future Features
+
+AI Trip Assistant
+
+Photo Memories
+
+OCR Receipt Scanner
+
+Offline Maps
+
+Emergency Contacts
+
+Live Flight Status
+
+Shared Trip
+
+Travel Statistics
+
+---
+
+# MVP
+
+The following features must be completed before the Thailand trip:
+
+- Home
+- Planner
+- Budget
+- Expenses
+- Translator
+- Tickets
+- Packing
+- Settings
+
+Everything else is optional.
